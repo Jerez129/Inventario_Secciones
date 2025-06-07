@@ -59,6 +59,7 @@
             categoriasToolStripMenuItem1.Name = "categoriasToolStripMenuItem1";
             categoriasToolStripMenuItem1.Size = new Size(119, 32);
             categoriasToolStripMenuItem1.Text = "Categorias";
+            categoriasToolStripMenuItem1.Click += categoriasToolStripMenuItem1_Click;
             // 
             // label1
             // 
@@ -71,7 +72,7 @@
             label1.Text = "INVENTARIO";
             label1.Click += label1_Click;
             // 
-            // Form1
+            // Principal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -79,7 +80,7 @@
             Controls.Add(label1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
+            Name = "Principal";
             Text = "Form1";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();

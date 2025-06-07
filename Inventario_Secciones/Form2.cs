@@ -16,5 +16,11 @@ namespace Inventario_Secciones
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Seccion secciones = new Seccion();
+            secciones.ShowDialog();
+        }
     }
 }
